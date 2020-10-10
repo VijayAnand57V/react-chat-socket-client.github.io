@@ -1,0 +1,433 @@
+::selection {
+  color: rgb(243, 243, 238);
+  background: rgb(245, 120, 4);
+
+}
+
+.smiley{
+  position: absolute;
+  padding: 10px;
+  bottom: -8px;
+  right: 35.5px;
+
+}
+.reply{
+  position: absolute;
+  padding: 10px;
+  bottom: -8px;
+  right: 1px;
+
+}
+.emojiviewer{
+  position: absolute;
+  right: 64px;
+  bottom: 80px;
+}
+
+body{
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+
+
+.inbetnav{
+  position: absolute;
+  right: 0px;
+
+}
+
+h1 {
+
+  /* background-color: rgb(253, 186, 124); */
+  /* text-shadow: 2px 1px 8px #f19812; */
+  background-color: #f2f2f2;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+  transition: text-shadow 2s;
+}
+h1:hover{
+  text-shadow: 1px 3px 8px #252323;
+}
+
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  text-shadow: 1px 3px 8px #1a1919;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+}
+.topnavSelf{
+  float: left;
+  display: block;
+  color: #ffffff;
+  /* background-color:transparent; */
+  border-style: none;
+  outline-style: none;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.topnavSelf:hover{
+  color:rgb(240, 144, 34);
+  text-shadow: 1px 3px 8px #f19812;
+
+}
+
+
+
+/* Change color on hover */
+.topnav a:hover {
+  /* background-color:#df6f24; */
+  color:rgb(240, 144, 34);
+  text-shadow: 1px 3px 8px #f19812;
+}
+.sidepanel {
+  
+  width: 250px; /* 0 width - change this with JavaScript */
+  height: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  left: 0;
+  background-color: #333; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 50px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+.sidepanel a {
+  padding: 10px 4px 14px 36px;
+  text-decoration: none;
+  color: #f8f8f8;
+  display: block;
+  transition: 0.3s;
+  
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #df6f24;
+  text-shadow: 1px 3px 8px #f19812;
+}
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 30px;
+}
+
+
+.roundy{
+  position: absolute;
+  /* height: 7.6%;
+  width: 3.75%; */
+  bottom: 50px;
+  right: 56px;
+  /* top: 691.63px; */
+  /* border: 3px solid #141413; */
+  border: none;
+
+  transition: transform 2s; 
+  /* text-shadow: 0 0 0.5em 0.2em #f19812; */
+  
+  
+  
+  
+}
+/* .roundy:active {
+  color: rgb(255, 196, 0);
+  
+  
+  
+} */
+.roundy:hover{
+  color: #df6f24;
+  /* box-shadow: 0 0 0.5em #383838; */
+  transform: rotate(710deg);
+  
+}
+.chatwid{
+  position: absolute;
+  /* border: 2px solid; */
+  padding-top: 70px;
+  border-top: 500px;
+  /* top: 178.151px; */
+  z-index: 1;
+  bottom: 130px;
+  right: 40px;
+  width: 389.92px;
+  height: 122.3381px;
+  /* padding-top: 60px; */
+  box-shadow: 0 0 1em #3b3b3b;
+  padding-bottom: 35px;
+  /* overflow-y: scroll; */
+  
+
+}
+.withindiv{
+  
+  width: 95%;
+  height:390px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+.chatwid h3{
+  position: fixed;
+
+  text-align: center;
+  background-color: #e49059;
+  padding: 18px;
+  /* top: 20.0%; */
+  bottom: 563px;
+  /* padding-top: 20px; */
+  position: fixed;
+  width: 350px;
+  /* width: 100%; */
+  padding: 20px;
+  box-shadow: 0 0 1em #f19812;
+  
+  
+}
+/* .chatwid input{
+  position: fixed;
+  bottom: 17.49%;
+  outline: none;
+  right: 2.5%;
+  border: transparent;
+  width: 20.88%;
+  padding: 10px;
+  padding-right: 90px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0 0 1em #000000;
+} */
+.inputing{
+  position: absolute;
+  width: 74.4%;
+  bottom: 0;
+  outline: none;
+  border: transparent;
+  padding: 10px;
+  padding-right: 90px;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 0 0 1em #000000;
+  
+}
+.jumptop{
+  position: fixed;
+  top: 75.24%;
+  right: 13.75%;
+  text-decoration: none;
+  color: #000000;  
+}
+
+
+.container {
+  position: relative;
+  float: right;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* margin-right: 10px; */
+  font-family: Arial, Helvetica, sans-serif;
+  /* padding-left: 100px; */
+  width: 70%;
+  /* margin-left: 10px; */
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  background-color:  #9c9c96;
+  color: #000000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 3px 2px 4px rgb(110, 108, 108);
+  
+  
+  /* 
+  
+  
+  
+  border-radius: 5px;
+  z-index: 1;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 100%;
+   */
+  
+}
+
+.darker {
+  position: relative;
+  float: left;
+  /* padding-left:5px;
+  padding-right: 90px; */
+  text-align: left;
+  /* margin-right: 10px; */
+  background-color: #ffffff;
+  color: #000000;
+  /* z-index: 1; */
+  border-radius: 5px;
+  box-shadow: 3px 2px 4px rgb(110, 108, 108);
+  /* float: left;
+  
+  color: #f1f1f1;
+  
+  
+   padding: 1px; 
+   margin: 80px 0; 
+   margin-bottom: 20px;
+  width: 100%;
+   */
+} 
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.time-right {
+  float: right;
+  font-size: x-small;
+  color: rgb(0, 0, 0);
+  /* background-color: #df6f24; */
+  width: fit-content;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.time-left {
+  float: left;
+  font-size: x-small;
+  color: rgb(255, 255, 255);
+  /* background-color: #df6f24; */
+  width: fit-content;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.loginform{
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  
+  background-color: rgba(71, 71, 70, 0.8); /* Black w/opacity */
+} 
+
+
+.loginform a{
+  position: absolute;
+
+  color: #494646;
+  top: 10px;
+  right: 20px;
+  
+  
+}
+
+.logdev{
+  
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* margin-top: auto; */
+  /* right: 500px; */
+  width: 500px;
+  height: 400px;
+  background-color: #df6f24; /* Black w/opacity */
+  text-align: center;
+  box-shadow: 0 0 1em;
+
+
+  
+  
+}
+.inputingtwo{
+  position: absolute;
+  width: 198.4px;
+  top:160px;
+  right: 60px;
+  outline: none;
+  border: transparent;
+  padding: 10px;
+  padding-right: 10px;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 0 0 1em #000000;
+}
+.inputingthree{
+  position: absolute;
+  width: 198.4px;
+  top: 235px;
+  right: 60px;
+  outline: none;
+  border: transparent;
+  padding: 10px;
+  padding-right: 10px;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 0 0 1em #000000;
+}
+.logdev p{
+  padding: 20px;
+  margin-top: -22px;
+  background-color:  #333;
+  box-shadow: #df6f24;
+  color: #f1f1f1;
+  font-size: x-large;
+  font-style: normal;
+  font-weight: 500;
+}
+.firstname{
+  position: absolute;
+  top:160px;
+  left: 100px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+.password{
+  position: absolute;
+  top: 235px;
+  left: 108px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+
+}
+
+.submitbutton{
+  position: absolute;
+  top: 320px;
+  right: 175px;
+  border-radius: 4px;
+  outline: none;
+  background-color: #df6f24;
+  font-size: 15px;
+  font-weight: 700;
+  width: 100px;
+  box-shadow:0 0 0.8em 0em rgb(0, 0, 0);
+
+}
+
